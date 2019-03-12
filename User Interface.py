@@ -73,9 +73,7 @@ class Ui_MainWindow(object):
         print(fname[0])
         f = open("%s"%(fname[0]),"r")
 
-        data = []
-        for i in f.readlines():
-            data.append(i.split(","))
+        
 
         print(data)
 
